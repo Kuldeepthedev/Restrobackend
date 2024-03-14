@@ -6,7 +6,7 @@ const product = require('./Routes/productRoute');
 require('dotenv').config()
 const cors = require('cors')
 app.use(cors({
-    origin: 'https://Restroassimentkuldeep.netlify.app', // Allow requests from this origin
+    origin: 'https://restroassimentkuldeep.netlify.app', // Allow requests from this origin
     optionsSuccessStatus: 200 // Some legacy browsers (IE11, various SmartTVs) choke on 204
   }));
 app.use(bodyParser.json());
